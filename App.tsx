@@ -4,6 +4,9 @@ import useCachedResources from "./hooks/useCachedResources";
 import Navigation from "./navigation";
 
 export default function App() {
+  /**
+   * 测试
+   */
   const isLoadingComplete = useCachedResources();
 
   if (!isLoadingComplete) {
